@@ -1,0 +1,583 @@
+body {
+    margin: 0px;
+    padding-top: 100px;
+    padding-left: 220px;
+    background-color: rgb(249, 249, 249);
+}
+
+.header {
+    z-index: 200;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 71px 1px 5px gray;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+/*leftselection*/
+.left-selection {
+    display: flex;
+    align-items: center;
+}
+
+.youtubehome-hover {
+    position: relative;
+}
+
+.youtubehome-hover .left-youtubehome {
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+    left: 130px;
+    color: white;
+    background-color: gray;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.youtubehome-hover:hover .left-youtubehome {
+    opacity: 80%;
+}
+
+.menubarleftside {
+    width: 35px;
+    height: 27px;
+    margin-left: 5px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.youtubeleftside {
+    width: 110px;
+    height: 70px;
+}
+
+/*middleselection*/
+.middle-selection {
+
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 40px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.Searchbox::placeholder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Searchbox {
+    width: 0px;
+    flex: 1;
+    height: 35px;
+    padding-left: 8px;
+    font-size: 12px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: inset 1px 1px 5px #0808080d;
+}
+
+.searchbutton {
+    width: 60px;
+    height: 38px;
+    padding-left: 0px;
+    padding-top: 0px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+}
+
+.hover-1 {
+    position: relative;
+}
+
+.hover-1 .search-hover {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    bottom: -40px;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover-1:hover .search-hover {
+    opacity: 86%;
+}
+
+.searchicon {
+    width: 27px;
+    height: 27px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.micmiddle {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+.hover2 {
+    position: relative;
+}
+
+.hover2 .mic-hover {
+    width: 140px;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    bottom: -60px;
+    right: -74px;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover2:hover .mic-hover {
+    opacity: 80%;
+}
+
+.micbutton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(203, 203, 203);
+    box-shadow: 0px 0px 5px rgb(227, 227, 227);
+    margin-left: 20px;
+    position: relative;
+}
+
+.micbutton:hover {}
+
+
+/*rightselection*/
+
+.right-selection {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0px;
+}
+
+.create-text {
+    font-family: Roboto, Oxygen;
+    text-align: center;
+    color: rgb(109, 109, 109);
+    margin-top: 7px;
+    margin-right: 13px;
+}
+
+.videoicons {
+    margin-top: 3px;
+    margin-left: 7px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.hover-3 {
+    position: relative;
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px rgb(228, 228, 228) solid;
+    box-shadow: 0px 0px 5px rgb(239, 239, 239);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hover-3:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.hover-3 .video-hover {
+    position: absolute;
+    width: 120px;
+    background-color: gray;
+    color: white;
+    bottom: -60px;
+    right: -48px;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover-3:hover .video-hover {
+    opacity: 85%;
+}
+
+
+.appdotsicons {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.hover-4 {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.hover-4 .app-hover {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    bottom: -38px;
+    right: 4px;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover-4:hover .app-hover {
+    opacity: 85%;
+}
+
+.bellicons {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.hover-5 {
+    position: relative;
+}
+
+.hover-5 .bell-hover {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    bottom: -59px;
+    right: -20px;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover-5:hover .bell-hover {
+    opacity: 85%;
+}
+
+.notification {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: -21px;
+    left: 14px;
+}
+
+.your-profile {
+    margin-right: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.hover-6 {
+    position: relative;
+}
+
+.hover-6 .profile-hover {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    bottom: -53px;
+    right: 15px;
+    font-size: 13px;
+    font: bolder;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hover-6:hover .profile-hover {
+    opacity: 85%;
+}
+
+/*--------sidebar---------*/
+.broder {
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 23px;
+}
+
+.sidebar {
+    position: relative;
+    z-index: 200;
+    width: 180px;
+    position: fixed;
+    top: 70px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 1px 5px 5px gray;
+    padding-bottom: 2px;
+}
+
+.sidebar-box {
+    height: 45px;
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebar-box:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.sidebar-text {
+    color: gray;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.sidebar-home {
+    width: 35px;
+    height: 28px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.sidebar-explore {
+    width: 25px;
+    height: 25px;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+.sidebar-Subscription {
+    width: 26px;
+    height: 26px;
+    margin-left: 13px;
+    margin-top: 7px;
+}
+
+.your-video {
+    width: 28px;
+    height: 30px;
+    margin-left: 13px;
+    margin-top: 7px;
+}
+
+.yourvideo {
+    color: gray;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    margin-left: 50px;
+}
+
+.sidebar-playlists {
+    width: 28px;
+    height: 28px;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+.sidebar-WatchLater {
+    width: 27px;
+    height: 27px;
+    margin-left: 13px;
+    margin-top: 7px;
+}
+
+.side-text {
+    position: relative;
+    top: -35;
+    right: -70;
+}
+
+.Subscription-text {
+    margin: 5px 5px 5px 15px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Subscription-ttf {
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.Subscription-ttf-text {
+    color: rgb(54, 53, 53);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Subscription-box {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.Subscription-box:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+
+/*---main videos---*/
+.youtube {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 8px;
+    cursor: pointer;
+}
+
+.video1 {
+    width: 400px;
+    height: 210px;
+    position: relative;
+    transition: 1.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(130, 130, 130);
+}
+
+.video1:hover {
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.video1:active {
+    box-shadow: 0px 0px 20px rgb(0, 0, 255);
+}
+
+.videotimer {
+    opacity: 80%;
+    font-family: Roboto, Oxygen, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    background-color: rgb(6, 6, 0);
+    color: rgb(255, 255, 255);
+    bottom: 0px;
+    right: 0px;
+    margin: 0px 5px 5px 0px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.videoprofile1 {
+    width: 45px;
+    height: 45px;
+    vertical-align: top;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.info1 {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.info2 {
+    color: rgb(80, 79, 79);
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.info3 {
+    color: rgb(80, 79, 79);
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    margin-top: 1px;
+
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 60px 350px;
+}
